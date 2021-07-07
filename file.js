@@ -3,10 +3,8 @@ function findElement(arr, func) {
     let num = arr[i];
     if (func(num)) {
       return num;
-    } else {
-      return 'undefined';
     }
-  }
+  } return undefined;
 }
 
 findElement([1, 2, 3, 4], num => num % 2 === 0);
