@@ -1,5 +1,5 @@
 function findElement(arr, func) {
-  for (let i = 0; i < arr; i++) {
+  for (let i = 0; i < arr.length; i++) {
     let num = arr[i];
     if (func(num)) {
       return num;
